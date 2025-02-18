@@ -28,7 +28,7 @@ This tool allows users to navigate through a decision tree for troubleshooting o
 ---
 
 ## Live Application
-Check out the live version of the application: [VirtuNexa Factorial Calculator](https://shiv1804.github.io/VirtuNexa-Interactive-Decision-Tree/)
+Check out the live version of the application: [VirtuNexa Interactive Decision Tree](https://shiv1804.github.io/VirtuNexa-Interactive-Decision-Tree/)
 
 ---
 
