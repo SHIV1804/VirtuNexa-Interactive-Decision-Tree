@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Decision Tree</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center min-h-screen p-6">
+
+  <header class="text-center mb-6">
+    <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-green-400 text-transparent bg-clip-text">
+      Decision Tree Explorer 🌿
+    </h1>
+    <p class="text-gray-400 mt-1 text-sm">Navigate through choices with ease</p>
+  </header>
+# Remove the current directory contents
+rm -rf *
+
+# Initialize the new repository
+git init
+git remote add origin https://github.com/SHIV1804/VirtuNexa-Interactive-Decision-Tree.git
+
+# Create a .gitignore file to exclude index.html and README.md
+echo "index.html" >> .gitignore
+echo "README.md" >> .gitignore
+
+# Add all files except those in .gitignore
+git add .
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Push to the new repository
+git push -u origin master# Remove the current directory contents
+rm -rf *
+
+# Initialize the new repository
+git init
+git remote add origin https://github.com/SHIV1804/VirtuNexa-Interactive-Decision-Tree.git
+
+# Create a .gitignore file to exclude index.html and README.md
+echo "index.html" >> .gitignore
+echo "README.md" >> .gitignore
+
+# Add all files except those in .gitignore
+git add .
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Push to the new repository
+git push -u origin master
+
+  <main class="w-full max-w-lg bg-gray-800 p-6 rounded-xl shadow-lg">
+    <!-- Progress Indicator -->
+    <div id="progress-bar" class="w-full h-2 bg-gray-600 rounded-full overflow-hidden mb-4">
+      <div id="progress" class="h-2 bg-green-400 w-0 transition-all duration-500"></div>
+    </div>
+
+    <section id="decision-tree" class="text-center">
+      <!-- Dynamic decision tree content appears here -->
+    </section>
+
+    <div class="text-center mt-4">
+      <button id="restart-btn" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded transition-all">
+        Restart 🔄
+      </button>
+    </div>
+  </main>
+
+  <footer class="mt-auto text-center py-3 text-gray-400 bg-gray-800 w-full shadow-inner">
+    &copy; 2025 Decision Tree Tool | Built with ❤️ for a seamless experience
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
